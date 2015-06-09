@@ -1,0 +1,49 @@
+html {
+    height:100%;
+    font-size: 13px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    height:100%;
+    position: relative;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 19px;
+    color: #2B2B2B;
+    background-color: #DCDCDC;
+
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+}
+
+
+body .content {
+    margin:0 auto;
+    position: relative;
+    padding:0 20px;
+}
+
+body .content .container{
+    width:90%;
+    max-width: 1300px;
+    min-width: 600px;
+    margin:0 auto;
+    position: relative;
+    padding:30px 20px;
+    background: #ffffff;
+}
+body .content .container header{
+    margin-bottom: 30px;
+    color: #7D7D7D;
+}
+body .content .container header h1{
+    color: #2B2B2B;
+}
+body .content .container footer{
+    font-size: 11px;
+    color: #7D7D7D;
+    margin: 30px 0;
+}
+

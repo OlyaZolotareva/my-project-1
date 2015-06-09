@@ -1,0 +1,125 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.news{
+    display:inline-block;
+    max-width:1000px
+}
+.news .article{
+    width:600px;
+}
+.news .article h1{
+    font-size: 20px;
+    line-height: 22px;
+}
+.news .article figure{
+    width:140px;
+    float:left;
+    background:#EFEFEF;
+    padding: 0;
+    margin:0 30px 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px none #000000;
+}
+
+.news .article figure img{
+    width:100%;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px none #000000;
+}
+.news .article figure figcaption{
+    width:100%;
+    font-size: 10px;
+    padding: 5px;
+    line-height: 11px;
+}
+.news .article a{
+    color: #3AB7FF;
+    border-bottom: 1px solid #B1E2FF;
+    text-decoration: none;
+}
+.news .article a:hover{
+    color: #FF254B;
+    border-bottom: 1px solid #FFB1BF;
+}
+.news .seperator{
+    height:1px;
+    background: #EBEBEB;
+    margin: 20px 0;
+}
+.news section{
+    padding: 0 0 20px 0;
+   /* border-bottom: 1px solid #B1E2FF;*/
+}
+.news section .bottom-nav h2{
+    padding:0;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.news section nav a{
+    margin: 0;
+    padding: 0;
+    display: table;
+    cursor: pointer;
+    height:20px;
+    opacity:0.6;
+}
+.news section nav a:hover{
+    opacity:1;
+}
+
+.news section .bottom-nav a .ico{
+   width:20px;
+   display: table-cell;
+   background: url("./../img/news_nav_1.png") no-repeat;
+}
+.news section .bottom-nav a span{
+    display: table-cell;
+}
+.news section .bottom-nav a .ico.nav2{
+    background-position: 0 -20px;
+}
+.news section .bottom-nav a .ico.nav3{
+    background-position: 0 -40px;
+}
+.news section .bottom-nav a .ico.nav4{
+    background-position: 0 -60px;
+}
+.news section .bottom-nav a .ico.nav5{
+    background-position: 0 -80px;
+}
+.news section .bottom-nav a .ico.nav6{
+    background-position: 0 -100px;
+}
+
+.photo-album{
+display: block;
+margin: auto;
+text-align: center;
+}
+.photo-album-item{
+    width:200px;
+   display:inline-block;
+    margin: 0px 20px 20px 0;
+}
+.photo-album-item .item-name{
+    color:#FF254B;
+    font-weight: bold;
+}
+
+aside{
+    width: 200px;
+    background: #ffdfeb;
+    display:inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+
+
